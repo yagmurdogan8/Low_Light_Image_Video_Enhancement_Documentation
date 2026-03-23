@@ -206,25 +206,25 @@ NVIDIA GPU
 
 ALICE Cluster (Leiden University)
 
-## System Reliability & Troubleshooting
+# System Reliability & Troubleshooting
 
 This project was developed with a strong focus on system stability, real-time performance, and robustness under varying conditions.
 
 Key engineering practices applied:
 
-# Performance Monitoring
+## Performance Monitoring
 - Continuous tracking of FPS, latency, and output consistency during inference
 
 - Real-time evaluation of system behavior under different lighting conditions and input streams
 
-# Troubleshooting & Debugging
+## Troubleshooting & Debugging
 - Systematic debugging of pipeline components to identify performance bottlenecks
 
 - Isolation and testing of individual modules (preprocessing, model inference, postprocessing)
 
 - Debugging multi-threaded video pipelines to ensure stable frame processing
 
-# Root Cause Analysis
+## Root Cause Analysis
 
 - Investigation of model instability and inconsistent outputs across datasets
 
@@ -232,7 +232,7 @@ Key engineering practices applied:
 
 - Data-driven identification of issues related to illumination decomposition and reconstruction
 
-# Automation & Reliability
+## Automation & Reliability
 
 - Automated training, evaluation, and benchmarking pipelines using Python
 
@@ -240,7 +240,7 @@ Key engineering practices applied:
 
 - Logging mechanisms to track experiments and detect anomalies
 
-# System Optimization
+## System Optimization
 
 - Optimization of GPU utilization and memory usage for long-running processes
 
