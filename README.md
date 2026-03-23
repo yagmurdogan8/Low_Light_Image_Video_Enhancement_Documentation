@@ -210,30 +210,49 @@ This project was developed with a strong focus on system stability, real-time pe
 
 Key engineering practices applied:
 
-Performance Monitoring
-Continuous tracking of FPS, latency, and output consistency during inference
-Real-time evaluation of system behavior under different lighting conditions and input streams
-Troubleshooting & Debugging
-Systematic debugging of pipeline components to identify performance bottlenecks
-Isolation and testing of individual modules (preprocessing, model inference, postprocessing)
-Debugging multi-threaded video pipelines to ensure stable frame processing
-Root Cause Analysis
-Investigation of model instability and inconsistent outputs across datasets
-Analysis of failure cases (e.g., extreme low-light conditions) to improve robustness
-Data-driven identification of issues related to illumination decomposition and reconstruction
-Automation & Reliability
-Automated training, evaluation, and benchmarking pipelines using Python
-Reproducible experiment setup to ensure consistent results across runs
-Logging mechanisms to track experiments and detect anomalies
-System Optimization
-Optimization of GPU utilization and memory usage for long-running processes
-Reduction of latency through pipeline restructuring and efficient batching
-Ensuring stable performance for continuous video streams (including RTSP input)
+# Performance Monitoring
+- Continuous tracking of FPS, latency, and output consistency during inference
+
+- Real-time evaluation of system behavior under different lighting conditions and input streams
+
+# Troubleshooting & Debugging
+- Systematic debugging of pipeline components to identify performance bottlenecks
+
+- Isolation and testing of individual modules (preprocessing, model inference, postprocessing)
+
+- Debugging multi-threaded video pipelines to ensure stable frame processing
+
+# Root Cause Analysis
+
+- Investigation of model instability and inconsistent outputs across datasets
+
+- Analysis of failure cases (e.g., extreme low-light conditions) to improve robustness
+
+- Data-driven identification of issues related to illumination decomposition and reconstruction
+
+# Automation & Reliability
+
+- Automated training, evaluation, and benchmarking pipelines using Python
+
+- Reproducible experiment setup to ensure consistent results across runs
+
+- Logging mechanisms to track experiments and detect anomalies
+
+# System Optimization
+
+- Optimization of GPU utilization and memory usage for long-running processes
+
+- Reduction of latency through pipeline restructuring and efficient batching
+
+- Ensuring stable performance for continuous video streams (including RTSP input)
+
+
+
 Mixed precision (FP16), Real-Time Performance, 80 FPS (GPU), Efficient memory handling,
 Continuous video support
 
 # Suitable for:
-Autonomous driving
-Surveillance
-Night-time robotics
+Autonomous driving, 
+Surveillance, 
+Night-time robotics & 
 Real-time monitoring systems
