@@ -4,7 +4,9 @@ Lightweight Retinex-Based Network (KinD++ + MobileNet Optimization)
 Master’s Thesis – Computer Science (Data Science)
 Leiden University – LIACS
 Author: Yağmur Doğan
+
 Supervisors: Dr. Hazel R. Doughty, Dr. Rita Pucci
+
 Year: 2025
 
 ## Overview
