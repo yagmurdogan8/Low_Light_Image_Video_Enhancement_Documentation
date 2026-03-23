@@ -135,10 +135,15 @@ Expected dataset structure:
 
 data/
 ├── train/
+
 │   ├── low/
+
 │   └── high/
+
 ├── val/
+
 │   ├── low/
+
 │   └── high/
 
 ## Training
