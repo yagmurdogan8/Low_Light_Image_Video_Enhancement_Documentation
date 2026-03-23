@@ -91,12 +91,19 @@ Optimized GPU batch inference
 
 ## Repository Structure
 ├── models/                # Model architectures
+
 ├── losses/                # Loss functions (MI Loss, GAN Loss, etc.)
+
 ├── datasets/              # Dataset loaders
+
 ├── training/              # Training scripts
+
 ├── inference/             # Image, video, RTSP inference scripts
+
 ├── utils/                 # Helper utilities
+
 ├── checkpoints/           # Saved models
+
 ├── experiments/           # Evaluation scripts
 
 
@@ -186,28 +193,17 @@ MI Loss (No GAN)	~35K	>80	Higher	Higher	Better
 
 Non-GAN training with Mutual Input Loss outperforms GAN-based variants across most quantitative metrics.
 
-Hardware Used
+## Hardware Used
 
 NVIDIA GPU
 
 ALICE Cluster (Leiden University)
 
-Mixed precision (FP16)
-
-Real-Time Performance
-
-80 FPS (GPU)
-
-Efficient memory handling
-
+Mixed precision (FP16), Real-Time Performance, 80 FPS (GPU), Efficient memory handling,
 Continuous video support
 
-Suitable for:
-
+# Suitable for:
 Autonomous driving
-
 Surveillance
-
 Night-time robotics
-
 Real-time monitoring systems
