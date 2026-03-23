@@ -210,8 +210,6 @@ ALICE Cluster (Leiden University)
 
 This project was developed with a strong focus on system stability, real-time performance, and robustness under varying conditions.
 
-Key engineering practices applied:
-
 ## Performance Monitoring
 - Continuous tracking of FPS, latency, and output consistency during inference
 
